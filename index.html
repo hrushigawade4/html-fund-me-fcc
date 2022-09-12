@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- button css colour and font change-->
+    <body
+        style="
+            background-color: #fbab7e;
+            background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+        "
+    ></body>
+    <style>
+        .button {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        .button1 {
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          /* cursor: pointer; */
+        }
+
+        .button2 {
+           /* Green */
+          border: none;
+          background: transparent;
+          
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          /* cursor: pointer; */
+        }
+        
+        .button2 {background-color: #008CBA;} /* Blue */
+        .button3 {background-color: #f44336;} /* Red */ 
+        .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+        .button5 {background-color: #555555;} /* Black */
+        </style>
+        </head>
+        <body>
+        <!-- button change for coloor-->
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Fund Me App</title>
+    </head>
+    <body>
+        <h1>Fund Me App</h1>
+        <script src="./index.js" type="module"></script>
+        <button id="connectButton" class="button">Connect</button>
+        <button id="balanceButton" class="button button5">Get Balance</button>
+        <button id="withdrawButton" class="button button3">Withdraw</button>
+
+        <!-- form-->
+        <button id="fundButton" onclick="fund()" class="button button2">Fund</button>
+        <label for="fund" class="button2 button4" >ETH Amount :-</label>
+        <input id="ethAmount" placeholder="1" class="button1 button4" />
+        <!-- form-->
+    </body>
+</html>
